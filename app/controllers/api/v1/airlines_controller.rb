@@ -1,6 +1,6 @@
 module Api
   module V1
-    class AirlineController < ApplicationController
+    class AirlinesController < ApplicationController
       def index
         airlines = Airline.all
 
